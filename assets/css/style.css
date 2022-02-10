@@ -6,13 +6,17 @@
 }
  #titulo{
      color: rgb(29, 119, 88);
-
+     
  }
 .container{
     display: flex;
     flex-flow: row;
     justify-content: flex-end;
-    align-items:justify;
+    align-items:center;
+}
+
+.justify{
+    align-items: justify;
 }
 
 #menu li{

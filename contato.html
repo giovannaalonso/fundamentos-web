@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
+<body>
 <ul id="menu">
     <li> 
      <a href="index.html" target="not_blank"> Sobre a Autora </a>
@@ -23,12 +23,12 @@
        <form>
         <p>
         <label for = "nome">Nome:</label>
-        <input type = "text" id = "nome">
+        <input type = "text" id = "nome" onkeyup='validaNome()'>
         </p>
-        <p>
+        <div id='txtNome'></div>
         <label for = "e-mail"></label> E-mail:</label>
         <input type = "e-mail" id = E-mail>
-        </p>
+       
         <p>
         <label for = "assunto"> Assunto:</label>
         <textarea name =  "assunto" id = "assunto" cols = "60" rows = "5"></textarea>
@@ -73,7 +73,7 @@
     Todos os direitos reservados à Giovanna Alonso Guarezi &copy
     </p>
 </footer>
-<body>
-    
+
+    <script src="assets/js/script.js">  </script>
 </body>
 </html>

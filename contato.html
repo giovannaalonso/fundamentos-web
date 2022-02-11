@@ -21,17 +21,18 @@
 
 <div class="containerContact">
        <form>
-        <p>
-        <label for = "nome">Nome:</label>
-        <input type = "text" id = "nome" onkeyup='validaNome()'>
-        </p>
+           <p>
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" onkeyup='validaNome()'>
         <div id='txtNome'></div>
-        <label for = "e-mail"></label> E-mail:</label>
-        <input type = "e-mail" id = E-mail>
-       
+        </p>
+        
+        <label for = "email"> E-mail:</label>
+        <input type = "email" id = "email">
+        <div id='txtEmail'></div>
         <p>
-        <label for = "assunto"> Assunto:</label>
-        <textarea name =  "assunto" id = "assunto" cols = "60" rows = "5"></textarea>
+        <label for="assunto"> Assunto:</label>
+        <textarea name= "assunto" id="assunto" cols="60" rows="5"></textarea>
         </p>
         <p>
         <button> Enviar</button>
@@ -52,20 +53,21 @@
 
     <div class="logos">
         <a href="https://www.linkedin.com/in/giovanna-alonso-guarezi-419a8316b/">
-            <img class= "tm-social" src="assets/linkedin.png" 
+            <img class= "tm-social" src="assets/linkedin.png" target = "_blank"
             alt="Logo do LinkedIn">
         </a>
         <a href="https://www.google.com/">
-            <img class= "tm-social" src="assets/o-email.png" alt="Logo de E-mail">
+            <img class= "tm-social" src="assets/o-email.png" target = "not_blank" 
+            alt="Logo de E-mail">
         </a>
         
         <a href="https://www.google.com/">
-            <img class= "tm-social" src="assets/telefone-tipico-antigo.png" 
+            <img class= "tm-social" src="assets/telefone-tipico-antigo.png" target = "not_blank"
             alt="Imagem de Telefone">
         </a>
         
         <a href="https://www.whatsapp.com/?lang=pt_br">
-        <img class= "tm-social" src="assets/whatsapp.png" 
+        <img class= "tm-social" src="assets/whatsapp.png" target = "not_blank"
         alt="Logo do WhatsApp">
     </a>
         </div>
@@ -73,7 +75,6 @@
     Todos os direitos reservados à Giovanna Alonso Guarezi &copy
     </p>
 </footer>
-
     <script src="assets/js/script.js">  </script>
 </body>
 </html>

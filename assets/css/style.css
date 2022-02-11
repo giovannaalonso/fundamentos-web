@@ -71,3 +71,14 @@
 }
 /* Estilos da página contato.htm*/
 
+.centerContact{
+    text-align: center;
+    font-size: 25px;
+}
+
+.containerContact{
+    display: flex;
+    flex-flow: row;
+    justify-content:flex-start;
+    align-items:center;
+}

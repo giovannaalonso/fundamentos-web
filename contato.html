@@ -27,15 +27,16 @@
         <div id='txtNome'></div>
         </p>
         
-        <label for = "email"> E-mail:</label>
-        <input type = "email" id = "email">
+        <label for="email"> E-mail:</label>
+        <input type="email" id ="email" onkeyup='validaEmail()'>
         <div id='txtEmail'></div>
         <p>
         <label for="assunto"> Assunto:</label>
-        <textarea name= "assunto" id="assunto" cols="60" rows="5"></textarea>
-        </p>
+        <textarea name="assunto" id="assunto" onkeyup='validaAssunto()' cols="60" rows="5"></textarea>
+        <div id='txtAssunto'></div>
+
         <p>
-        <button> Enviar</button>
+        <button oneclick='enviar()'> Enviar</button>
         </p>
     </form>
     </div>
